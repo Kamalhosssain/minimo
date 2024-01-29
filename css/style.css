@@ -1,0 +1,257 @@
+/* common css start */
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #626262;
+}
+/* common css end */
+/* header start */
+header {
+  padding: 25px 0px;
+  border: 1px solid #ded7d7;
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+   
+  overflow: hidden;
+}
+
+	.logo {
+    width: 13%;
+    margin-top: 11px;
+    float: left;
+
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	float: right;
+}
+.menu ul {
+	float: right;
+   
+    
+}
+.menu ul li{
+  list-style: none;
+	float: left;
+   
+
+}
+.menu ul li a{
+  margin: 0 60px;
+	text-decoration: none;
+	color: #626262;
+	transition: .33s linear;
+  border-bottom: 1px solid transparent;
+  text-transform: uppercase;
+}	
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+	color: orange;
+}
+
+	.menu ul li:last-child a{
+    margin-right: 0;
+}
+/* header end */
+/* banner satrt */
+
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/* banner end */
+/*weekand start*/
+.weekand {
+    padding: 80px 0;
+}
+.container2{
+	
+	width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.w_content{}
+.c_text{
+	
+  line-height: 24px;
+}
+.mb_45{
+  margin-bottom: 45px;
+}
+.c_tag{
+	 
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+.c_tittle {
+	margin-top: 15px 0 25px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/*weekand end*/
+
+/*blog start*/
+.blog{
+  padding: 0 0 80px;
+}
+.s_blog {
+    width: 47%;
+    margin-top: 80px;
+    float: left;
+}
+.s_blog:nth-child(even){
+  margin-left: 6%;
+}
+.s_img {
+    margin-bottom: 20px;
+}
+.s_img img{
+width: 100%;
+}
+
+
+/*blog end*/
+/*form start*/
+.form{
+padding: 70px 0;
+  background-color: #ddd;
+}
+.signup{
+  text-align: center;
+}
+.s_form{
+  width: 400px;
+  
+  margin: 0 auto;
+  position: relative;
+}
+.s_form input{
+  font-family: 'playfair display', serif;
+  font-weight: 400;
+  color: #626262;
+  font-size: 14px;
+  width: 345px;
+  height: 45px;
+  border: none;
+  border-bottom: 2px solid #000000;
+  background-color: transparent;
+  padding-left: 5px;
+  padding-right: 50px;
+}
+.s_form input:focus{
+  outline: 0;
+}
+.s_form button{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+.s_form button:focus{
+    outline: 0;
+}
+.s_form button img{}
+.s_h1{
+  color: #333333;
+  margin-top: 0;
+  margin-bottom: 70px;
+
+}
+/*form end*/
+
+/*blog2 start*/
+.blog2{
+   padding: 0 0 80px;
+}
+.s_blog2{
+
+  float: left;
+  width: 47%;
+  margin-top: 80px;
+  margin-right: 5%;
+}
+.s_blog2:last-child {
+ margin-right: 0;
+}
+.sb2_img{
+   margin-bottom: 20px;
+}
+.sb2_img img{
+  width: 100%;
+}
+/*blog2 end*/
+/*load more start*/
+.load {
+    padding: 80px 0 100px;
+    text-align: center;
+}
+.container3{
+     width: 80%;
+    margin: 0 auto;
+}
+.c_b{
+  width: 200px;
+  min-height: 100px;
+}
+.c_b:hover{
+  background-color: #333333;
+}
+
+/*load more end*/
+
+/*footer start*/
+footer{
+
+   background-color: #ece8e8;
+    padding: 25px 0;
+   
+}
+
+  .f_left {
+    float: left;
+    width: 40%;
+
+}
+.f_left ul{
+  list-style: none;
+}
+.f_left ul li {
+    float: left;
+    padding-left: 20px;
+}
+.f_left ul li a{
+  text-decoration: none;
+}
+
+.f_right {
+    float: right;
+    width: 50%;
+}
+.f_right ul{
+  list-style: none;
+}
+.f_right ul li{
+  float: right;
+    padding-left: 20px;
+}
+.f_right ul li a{
+  text-decoration: none;
+}
+
+/*footer end*/
